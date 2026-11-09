@@ -1,0 +1,14 @@
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.input-row .fa {
+  width: 24px;
+  text-align: center;
+}
+.input-row input,
+.input-row textarea {
+  flex: 1;
+  min-width: 0;
+}
